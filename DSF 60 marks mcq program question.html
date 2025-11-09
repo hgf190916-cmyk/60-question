@@ -1,0 +1,796 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quiz - 60 Questions</title>
+    <link rel="stylesheet" href="hidden.css">
+</head>
+<body>
+    <!-- Question 1 -->
+    <div class="container main_box">
+        <div class="container question">
+            1) What type of language is Python?
+        </div>
+        <div class="container options">
+            <label for="Q1A"><div id="OPTQ1A" class="opt"><input type="radio" name="Q1" id="Q1A" value="A" onchange="fun(document.getElementById('OPTQ1A'),'A',document.getElementById('ANSQ1').textContent)"> Compiled</div></label>
+            <label for="Q1B"><div id="OPTQ1B" class="opt"><input type="radio" name="Q1" id="Q1B" value="B" onchange="fun(document.getElementById('OPTQ1B'),'B',document.getElementById('ANSQ1').textContent)"> Interpreted</div></label>
+            <label for="Q1C"><div id="OPTQ1C" class="opt"><input type="radio" name="Q1" id="Q1C" value="C" onchange="fun(document.getElementById('OPTQ1C'),'C',document.getElementById('ANSQ1').textContent)"> Assembly</div></label>
+            <label for="Q1D"><div id="OPTQ1D" class="opt"><input type="radio" name="Q1" id="Q1D" value="D" onchange="fun(document.getElementById('OPTQ1D'),'D',document.getElementById('ANSQ1').textContent)"> Machine language</div></label>
+        </div>
+        <span class="hidden" id="ANSQ1">B</span>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="container main_box">
+        <div class="container question">
+            2) What is the output of print(type(10))?
+        </div>
+        <div class="container options">
+            <label for="Q2A"><div id="OPTQ2A" class="opt"><input type="radio" name="Q2" id="Q2A" value="A" onchange="fun(document.getElementById('OPTQ2A'),'A',document.getElementById('ANSQ2').textContent)"> &lt;class 'int'&gt;</div></label>
+            <label for="Q2B"><div id="OPTQ2B" class="opt"><input type="radio" name="Q2" id="Q2B" value="B" onchange="fun(document.getElementById('OPTQ2B'),'B',document.getElementById('ANSQ2').textContent)"> &lt;type 'int'&gt;</div></label>
+            <label for="Q2C"><div id="OPTQ2C" class="opt"><input type="radio" name="Q2" id="Q2C" value="C" onchange="fun(document.getElementById('OPTQ2C'),'C',document.getElementById('ANSQ2').textContent)"> int</div></label>
+            <label for="Q2D"><div id="OPTQ2D" class="opt"><input type="radio" name="Q2" id="Q2D" value="D" onchange="fun(document.getElementById('OPTQ2D'),'D',document.getElementById('ANSQ2').textContent)"> 10</div></label>
+        </div>
+        <span class="hidden" id="ANSQ2">A</span>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="container main_box">
+        <div class="container question">
+            3) Which of the following is a valid variable identifier in Python?
+        </div>
+        <div class="container options">
+            <label for="Q3A"><div id="OPTQ3A" class="opt"><input type="radio" name="Q3" id="Q3A" value="A" onchange="fun(document.getElementById('OPTQ3A'),'A',document.getElementById('ANSQ3').textContent)"> 2var</div></label>
+            <label for="Q3B"><div id="OPTQ3B" class="opt"><input type="radio" name="Q3" id="Q3B" value="B" onchange="fun(document.getElementById('OPTQ3B'),'B',document.getElementById('ANSQ3').textContent)"> var_2</div></label>
+            <label for="Q3C"><div id="OPTQ3C" class="opt"><input type="radio" name="Q3" id="Q3C" value="C" onchange="fun(document.getElementById('OPTQ3C'),'C',document.getElementById('ANSQ3').textContent)"> var-2</div></label>
+            <label for="Q3D"><div id="OPTQ3D" class="opt"><input type="radio" name="Q3" id="Q3D" value="D" onchange="fun(document.getElementById('OPTQ3D'),'D',document.getElementById('ANSQ3').textContent)"> var 2</div></label>
+        </div>
+        <span class="hidden" id="ANSQ3">B</span>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="container main_box">
+        <div class="container question">
+            4) What will be the result of print(5 + 3 * 2)?
+        </div>
+        <div class="container options">
+            <label for="Q4A"><div id="OPTQ4A" class="opt"><input type="radio" name="Q4" id="Q4A" value="A" onchange="fun(document.getElementById('OPTQ4A'),'A',document.getElementById('ANSQ4').textContent)"> 16</div></label>
+            <label for="Q4B"><div id="OPTQ4B" class="opt"><input type="radio" name="Q4" id="Q4B" value="B" onchange="fun(document.getElementById('OPTQ4B'),'B',document.getElementById('ANSQ4').textContent)"> 11</div></label>
+            <label for="Q4C"><div id="OPTQ4C" class="opt"><input type="radio" name="Q4" id="Q4C" value="C" onchange="fun(document.getElementById('OPTQ4C'),'C',document.getElementById('ANSQ4').textContent)"> 13</div></label>
+            <label for="Q4D"><div id="OPTQ4D" class="opt"><input type="radio" name="Q4" id="Q4D" value="D" onchange="fun(document.getElementById('OPTQ4D'),'D',document.getElementById('ANSQ4').textContent)"> 10</div></label>
+        </div>
+        <span class="hidden" id="ANSQ4">B</span>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="container main_box">
+        <div class="container question">
+            5) Which symbol is used for single-line comments in Python?
+        </div>
+        <div class="container options">
+            <label for="Q5A"><div id="OPTQ5A" class="opt"><input type="radio" name="Q5" id="Q5A" value="A" onchange="fun(document.getElementById('OPTQ5A'),'A',document.getElementById('ANSQ5').textContent)"> //</div></label>
+            <label for="Q5B"><div id="OPTQ5B" class="opt"><input type="radio" name="Q5" id="Q5B" value="B" onchange="fun(document.getElementById('OPTQ5B'),'B',document.getElementById('ANSQ5').textContent)"> #</div></label>
+            <label for="Q5C"><div id="OPTQ5C" class="opt"><input type="radio" name="Q5" id="Q5C" value="C" onchange="fun(document.getElementById('OPTQ5C'),'C',document.getElementById('ANSQ5').textContent)"> --</div></label>
+            <label for="Q5D"><div id="OPTQ5D" class="opt"><input type="radio" name="Q5" id="Q5D" value="D" onchange="fun(document.getElementById('OPTQ5D'),'D',document.getElementById('ANSQ5').textContent)"> /*</div></label>
+        </div>
+        <span class="hidden" id="ANSQ5">B</span>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="container main_box">
+        <div class="container question">
+            6) Which statement is used to exit a loop prematurely?
+        </div>
+        <div class="container options">
+            <label for="Q6A"><div id="OPTQ6A" class="opt"><input type="radio" name="Q6" id="Q6A" value="A" onchange="fun(document.getElementById('OPTQ6A'),'A',document.getElementById('ANSQ6').textContent)"> continue</div></label>
+            <label for="Q6B"><div id="OPTQ6B" class="opt"><input type="radio" name="Q6" id="Q6B" value="B" onchange="fun(document.getElementById('OPTQ6B'),'B',document.getElementById('ANSQ6').textContent)"> pass</div></label>
+            <label for="Q6C"><div id="OPTQ6C" class="opt"><input type="radio" name="Q6" id="Q6C" value="C" onchange="fun(document.getElementById('OPTQ6C'),'C',document.getElementById('ANSQ6').textContent)"> break</div></label>
+            <label for="Q6D"><div id="OPTQ6D" class="opt"><input type="radio" name="Q6" id="Q6D" value="D" onchange="fun(document.getElementById('OPTQ6D'),'D',document.getElementById('ANSQ6').textContent)"> exit</div></label>
+        </div>
+        <span class="hidden" id="ANSQ6">C</span>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="container main_box">
+        <div class="container question">
+            7) What will print("Hello"[1:4]) output?
+        </div>
+        <div class="container options">
+            <label for="Q7A"><div id="OPTQ7A" class="opt"><input type="radio" name="Q7" id="Q7A" value="A" onchange="fun(document.getElementById('OPTQ7A'),'A',document.getElementById('ANSQ7').textContent)"> Hel</div></label>
+            <label for="Q7B"><div id="OPTQ7B" class="opt"><input type="radio" name="Q7" id="Q7B" value="B" onchange="fun(document.getElementById('OPTQ7B'),'B',document.getElementById('ANSQ7').textContent)"> ell</div></label>
+            <label for="Q7C"><div id="OPTQ7C" class="opt"><input type="radio" name="Q7" id="Q7C" value="C" onchange="fun(document.getElementById('OPTQ7C'),'C',document.getElementById('ANSQ7').textContent)"> ello</div></label>
+            <label for="Q7D"><div id="OPTQ7D" class="opt"><input type="radio" name="Q7" id="Q7D" value="D" onchange="fun(document.getElementById('OPTQ7D'),'D',document.getElementById('ANSQ7').textContent)"> H</div></label>
+        </div>
+        <span class="hidden" id="ANSQ7">B</span>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="container main_box">
+        <div class="container question">
+            8) Which of the following is NOT a valid data type in Python?
+        </div>
+        <div class="container options">
+            <label for="Q8A"><div id="OPTQ8A" class="opt"><input type="radio" name="Q8" id="Q8A" value="A" onchange="fun(document.getElementById('OPTQ8A'),'A',document.getElementById('ANSQ8').textContent)"> list</div></label>
+            <label for="Q8B"><div id="OPTQ8B" class="opt"><input type="radio" name="Q8" id="Q8B" value="B" onchange="fun(document.getElementById('OPTQ8B'),'B',document.getElementById('ANSQ8').textContent)"> tuple</div></label>
+            <label for="Q8C"><div id="OPTQ8C" class="opt"><input type="radio" name="Q8" id="Q8C" value="C" onchange="fun(document.getElementById('OPTQ8C'),'C',document.getElementById('ANSQ8').textContent)"> set</div></label>
+            <label for="Q8D"><div id="OPTQ8D" class="opt"><input type="radio" name="Q8" id="Q8D" value="D" onchange="fun(document.getElementById('OPTQ8D'),'D',document.getElementById('ANSQ8').textContent)"> array</div></label>
+        </div>
+        <span class="hidden" id="ANSQ8">D</span>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="container main_box">
+        <div class="container question">
+            9) How do you check membership of a substring in a string?
+        </div>
+        <div class="container options">
+            <label for="Q9A"><div id="OPTQ9A" class="opt"><input type="radio" name="Q9" id="Q9A" value="A" onchange="fun(document.getElementById('OPTQ9A'),'A',document.getElementById('ANSQ9').textContent)"> in operator</div></label>
+            <label for="Q9B"><div id="OPTQ9B" class="opt"><input type="radio" name="Q9" id="Q9B" value="B" onchange="fun(document.getElementById('OPTQ9B'),'B',document.getElementById('ANSQ9').textContent)"> has() function</div></label>
+            <label for="Q9C"><div id="OPTQ9C" class="opt"><input type="radio" name="Q9" id="Q9C" value="C" onchange="fun(document.getElementById('OPTQ9C'),'C',document.getElementById('ANSQ9').textContent)"> contains() method</div></label>
+            <label for="Q9D"><div id="OPTQ9D" class="opt"><input type="radio" name="Q9" id="Q9D" value="D" onchange="fun(document.getElementById('OPTQ9D'),'D',document.getElementById('ANSQ9').textContent)"> inside operator</div></label>
+        </div>
+        <span class="hidden" id="ANSQ9">A</span>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="container main_box">
+        <div class="container question">
+            10) What is the output of len("Python")?
+        </div>
+        <div class="container options">
+            <label for="Q10A"><div id="OPTQ10A" class="opt"><input type="radio" name="Q10" id="Q10A" value="A" onchange="fun(document.getElementById('OPTQ10A'),'A',document.getElementById('ANSQ10').textContent)"> 5</div></label>
+            <label for="Q10B"><div id="OPTQ10B" class="opt"><input type="radio" name="Q10" id="Q10B" value="B" onchange="fun(document.getElementById('OPTQ10B'),'B',document.getElementById('ANSQ10').textContent)"> 6</div></label>
+            <label for="Q10C"><div id="OPTQ10C" class="opt"><input type="radio" name="Q10" id="Q10C" value="C" onchange="fun(document.getElementById('OPTQ10C'),'C',document.getElementById('ANSQ10').textContent)"> 7</div></label>
+            <label for="Q10D"><div id="OPTQ10D" class="opt"><input type="radio" name="Q10" id="Q10D" value="D" onchange="fun(document.getElementById('OPTQ10D'),'D',document.getElementById('ANSQ10').textContent)"> Error</div></label>
+        </div>
+        <span class="hidden" id="ANSQ10">B</span>
+    </div>
+
+    <!-- Question 11 -->
+    <div class="container main_box">
+        <div class="container question">
+            11) Which method converts a string to uppercase?
+        </div>
+        <div class="container options">
+            <label for="Q11A"><div id="OPTQ11A" class="opt"><input type="radio" name="Q11" id="Q11A" value="A" onchange="fun(document.getElementById('OPTQ11A'),'A',document.getElementById('ANSQ11').textContent)"> upper()</div></label>
+            <label for="Q11B"><div id="OPTQ11B" class="opt"><input type="radio" name="Q11" id="Q11B" value="B" onchange="fun(document.getElementById('OPTQ11B'),'B',document.getElementById('ANSQ11').textContent)"> capitalize()</div></label>
+            <label for="Q11C"><div id="OPTQ11C" class="opt"><input type="radio" name="Q11" id="Q11C" value="C" onchange="fun(document.getElementById('OPTQ11C'),'C',document.getElementById('ANSQ11').textContent)"> title()</div></label>
+            <label for="Q11D"><div id="OPTQ11D" class="opt"><input type="radio" name="Q11" id="Q11D" value="D" onchange="fun(document.getElementById('OPTQ11D'),'D',document.getElementById('ANSQ11').textContent)"> case()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ11">A</span>
+    </div>
+
+    <!-- Question 12 -->
+    <div class="container main_box">
+        <div class="container question">
+            12) What does the split() function do?
+        </div>
+        <div class="container options">
+            <label for="Q12A"><div id="OPTQ12A" class="opt"><input type="radio" name="Q12" id="Q12A" value="A" onchange="fun(document.getElementById('OPTQ12A'),'A',document.getElementById('ANSQ12').textContent)"> Divides a string at a specified delimiter</div></label>
+            <label for="Q12B"><div id="OPTQ12B" class="opt"><input type="radio" name="Q12" id="Q12B" value="B" onchange="fun(document.getElementById('OPTQ12B'),'B',document.getElementById('ANSQ12').textContent)"> Joins strings together</div></label>
+            <label for="Q12C"><div id="OPTQ12C" class="opt"><input type="radio" name="Q12" id="Q12C" value="C" onchange="fun(document.getElementById('OPTQ12C'),'C',document.getElementById('ANSQ12').textContent)"> Changes case of text</div></label>
+            <label for="Q12D"><div id="OPTQ12D" class="opt"><input type="radio" name="Q12" id="Q12D" value="D" onchange="fun(document.getElementById('OPTQ12D'),'D',document.getElementById('ANSQ12').textContent)"> Finds substrings</div></label>
+        </div>
+        <span class="hidden" id="ANSQ12">A</span>
+    </div>
+
+    <!-- Question 13 -->
+    <div class="container main_box">
+        <div class="container question">
+            13) How do you replace the substring "cat" with "dog"?
+        </div>
+        <div class="container options">
+            <label for="Q13A"><div id="OPTQ13A" class="opt"><input type="radio" name="Q13" id="Q13A" value="A" onchange="fun(document.getElementById('OPTQ13A'),'A',document.getElementById('ANSQ13').textContent)"> string.replace("cat","dog")</div></label>
+            <label for="Q13B"><div id="OPTQ13B" class="opt"><input type="radio" name="Q13" id="Q13B" value="B" onchange="fun(document.getElementById('OPTQ13B'),'B',document.getElementById('ANSQ13').textContent)"> replace("cat","dog", string)</div></label>
+            <label for="Q13C"><div id="OPTQ13C" class="opt"><input type="radio" name="Q13" id="Q13C" value="C" onchange="fun(document.getElementById('OPTQ13C'),'C',document.getElementById('ANSQ13').textContent)"> string.change("cat","dog")</div></label>
+            <label for="Q13D"><div id="OPTQ13D" class="opt"><input type="radio" name="Q13" id="Q13D" value="D" onchange="fun(document.getElementById('OPTQ13D'),'D',document.getElementById('ANSQ13').textContent)"> string.find("cat","dog")</div></label>
+        </div>
+        <span class="hidden" id="ANSQ13">A</span>
+    </div>
+
+    <!-- Question 14 -->
+    <div class="container main_box">
+        <div class="container question">
+            14) What is the output of "Python" + "3"?
+        </div>
+        <div class="container options">
+            <label for="Q14A"><div id="OPTQ14A" class="opt"><input type="radio" name="Q14" id="Q14A" value="A" onchange="fun(document.getElementById('OPTQ14A'),'A',document.getElementById('ANSQ14').textContent)"> Python3</div></label>
+            <label for="Q14B"><div id="OPTQ14B" class="opt"><input type="radio" name="Q14" id="Q14B" value="B" onchange="fun(document.getElementById('OPTQ14B'),'B',document.getElementById('ANSQ14').textContent)"> Error</div></label>
+            <label for="Q14C"><div id="OPTQ14C" class="opt"><input type="radio" name="Q14" id="Q14C" value="C" onchange="fun(document.getElementById('OPTQ14C'),'C',document.getElementById('ANSQ14').textContent)"> Python 3</div></label>
+            <label for="Q14D"><div id="OPTQ14D" class="opt"><input type="radio" name="Q14" id="Q14D" value="D" onchange="fun(document.getElementById('OPTQ14D'),'D',document.getElementById('ANSQ14').textContent)"> Python+3</div></label>
+        </div>
+        <span class="hidden" id="ANSQ14">A</span>
+    </div>
+
+    <!-- Question 15 -->
+    <div class="container main_box">
+        <div class="container question">
+            15) The syntax for checking if substring exists in a string is
+        </div>
+        <div class="container options">
+            <label for="Q15A"><div id="OPTQ15A" class="opt"><input type="radio" name="Q15" id="Q15A" value="A" onchange="fun(document.getElementById('OPTQ15A'),'A',document.getElementById('ANSQ15').textContent)"> substring in string</div></label>
+            <label for="Q15B"><div id="OPTQ15B" class="opt"><input type="radio" name="Q15" id="Q15B" value="B" onchange="fun(document.getElementById('OPTQ15B'),'B',document.getElementById('ANSQ15').textContent)"> string.contains(substring)</div></label>
+            <label for="Q15C"><div id="OPTQ15C" class="opt"><input type="radio" name="Q15" id="Q15C" value="C" onchange="fun(document.getElementById('OPTQ15C'),'C',document.getElementById('ANSQ15').textContent)"> string.has(substring)</div></label>
+            <label for="Q15D"><div id="OPTQ15D" class="opt"><input type="radio" name="Q15" id="Q15D" value="D" onchange="fun(document.getElementById('OPTQ15D'),'D',document.getElementById('ANSQ15').textContent)"> substring inside string</div></label>
+        </div>
+        <span class="hidden" id="ANSQ15">A</span>
+    </div>
+
+    <!-- Question 16 -->
+    <div class="container main_box">
+        <div class="container question">
+            16) How do you create a list?
+        </div>
+        <div class="container options">
+            <label for="Q16A"><div id="OPTQ16A" class="opt"><input type="radio" name="Q16" id="Q16A" value="A" onchange="fun(document.getElementById('OPTQ16A'),'A',document.getElementById('ANSQ16').textContent)"> list = {1, 2, 3}</div></label>
+            <label for="Q16B"><div id="OPTQ16B" class="opt"><input type="radio" name="Q16" id="Q16B" value="B" onchange="fun(document.getElementById('OPTQ16B'),'B',document.getElementById('ANSQ16').textContent)"> list = [1, 2, 3]</div></label>
+            <label for="Q16C"><div id="OPTQ16C" class="opt"><input type="radio" name="Q16" id="Q16C" value="C" onchange="fun(document.getElementById('OPTQ16C'),'C',document.getElementById('ANSQ16').textContent)"> list = (1, 2, 3)</div></label>
+            <label for="Q16D"><div id="OPTQ16D" class="opt"><input type="radio" name="Q16" id="Q16D" value="D" onchange="fun(document.getElementById('OPTQ16D'),'D',document.getElementById('ANSQ16').textContent)"> list = &lt;1, 2, 3&gt;</div></label>
+        </div>
+        <span class="hidden" id="ANSQ16">B</span>
+    </div>
+
+    <!-- Question 17 -->
+    <div class="container main_box">
+        <div class="container question">
+            17) Which method adds an element to the end of a list?
+        </div>
+        <div class="container options">
+            <label for="Q17A"><div id="OPTQ17A" class="opt"><input type="radio" name="Q17" id="Q17A" value="A" onchange="fun(document.getElementById('OPTQ17A'),'A',document.getElementById('ANSQ17').textContent)"> append()</div></label>
+            <label for="Q17B"><div id="OPTQ17B" class="opt"><input type="radio" name="Q17" id="Q17B" value="B" onchange="fun(document.getElementById('OPTQ17B'),'B',document.getElementById('ANSQ17').textContent)"> add()</div></label>
+            <label for="Q17C"><div id="OPTQ17C" class="opt"><input type="radio" name="Q17" id="Q17C" value="C" onchange="fun(document.getElementById('OPTQ17C'),'C',document.getElementById('ANSQ17').textContent)"> insert()</div></label>
+            <label for="Q17D"><div id="OPTQ17D" class="opt"><input type="radio" name="Q17" id="Q17D" value="D" onchange="fun(document.getElementById('OPTQ17D'),'D',document.getElementById('ANSQ17').textContent)"> extend()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ17">A</span>
+    </div>
+
+    <!-- Question 18 -->
+    <div class="container main_box">
+        <div class="container question">
+            18) What character is used to define a tuple?
+        </div>
+        <div class="container options">
+            <label for="Q18A"><div id="OPTQ18A" class="opt"><input type="radio" name="Q18" id="Q18A" value="A" onchange="fun(document.getElementById('OPTQ18A'),'A',document.getElementById('ANSQ18').textContent)"> []</div></label>
+            <label for="Q18B"><div id="OPTQ18B" class="opt"><input type="radio" name="Q18" id="Q18B" value="B" onchange="fun(document.getElementById('OPTQ18B'),'B',document.getElementById('ANSQ18').textContent)"> {}</div></label>
+            <label for="Q18C"><div id="OPTQ18C" class="opt"><input type="radio" name="Q18" id="Q18C" value="C" onchange="fun(document.getElementById('OPTQ18C'),'C',document.getElementById('ANSQ18').textContent)"> ()</div></label>
+            <label for="Q18D"><div id="OPTQ18D" class="opt"><input type="radio" name="Q18" id="Q18D" value="D" onchange="fun(document.getElementById('OPTQ18D'),'D',document.getElementById('ANSQ18').textContent)"> &lt;&gt;</div></label>
+        </div>
+        <span class="hidden" id="ANSQ18">C</span>
+    </div>
+
+    <!-- Question 19 -->
+    <div class="container main_box">
+        <div class="container question">
+            19) Which data structure is unordered and does not allow duplicates?
+        </div>
+        <div class="container options">
+            <label for="Q19A"><div id="OPTQ19A" class="opt"><input type="radio" name="Q19" id="Q19A" value="A" onchange="fun(document.getElementById('OPTQ19A'),'A',document.getElementById('ANSQ19').textContent)"> List</div></label>
+            <label for="Q19B"><div id="OPTQ19B" class="opt"><input type="radio" name="Q19" id="Q19B" value="B" onchange="fun(document.getElementById('OPTQ19B'),'B',document.getElementById('ANSQ19').textContent)"> Tuple</div></label>
+            <label for="Q19C"><div id="OPTQ19C" class="opt"><input type="radio" name="Q19" id="Q19C" value="C" onchange="fun(document.getElementById('OPTQ19C'),'C',document.getElementById('ANSQ19').textContent)"> Set</div></label>
+            <label for="Q19D"><div id="OPTQ19D" class="opt"><input type="radio" name="Q19"Continuing from Question 19:
+
+```html
+            id="Q19D" value="D" onchange="fun(document.getElementById('OPTQ19D'),'D',document.getElementById('ANSQ19').textContent)"> Dictionary</div></label>
+        </div>
+        <span class="hidden" id="ANSQ19">C</span>
+    </div>
+
+    <!-- Question 20 -->
+    <div class="container main_box">
+        <div class="container question">
+            20) How do you access the value associated with a key in a dictionary?
+        </div>
+        <div class="container options">
+            <label for="Q20A"><div id="OPTQ20A" class="opt"><input type="radio" name="Q20" id="Q20A" value="A" onchange="fun(document.getElementById('OPTQ20A'),'A',document.getElementById('ANSQ20').textContent)"> dictionary[key]</div></label>
+            <label for="Q20B"><div id="OPTQ20B" class="opt"><input type="radio" name="Q20" id="Q20B" value="B" onchange="fun(document.getElementById('OPTQ20B'),'B',document.getElementById('ANSQ20').textContent)"> dictionary.value(key)</div></label>
+            <label for="Q20C"><div id="OPTQ20C" class="opt"><input type="radio" name="Q20" id="Q20C" value="C" onchange="fun(document.getElementById('OPTQ20C'),'C',document.getElementById('ANSQ20').textContent)"> dictionary.get(key)</div></label>
+            <label for="Q20D"><div id="OPTQ20D" class="opt"><input type="radio" name="Q20" id="Q20D" value="D" onchange="fun(document.getElementById('OPTQ20D'),'D',document.getElementById('ANSQ20').textContent)"> Both a and c</div></label>
+        </div>
+        <span class="hidden" id="ANSQ20">D</span>
+    </div>
+
+    <!-- Question 21 -->
+    <div class="container main_box">
+        <div class="container question">
+            21) How do you define a function in Python?
+        </div>
+        <div class="container options">
+            <label for="Q21A"><div id="OPTQ21A" class="opt"><input type="radio" name="Q21" id="Q21A" value="A" onchange="fun(document.getElementById('OPTQ21A'),'A',document.getElementById('ANSQ21').textContent)"> function myFunc():</div></label>
+            <label for="Q21B"><div id="OPTQ21B" class="opt"><input type="radio" name="Q21" id="Q21B" value="B" onchange="fun(document.getElementById('OPTQ21B'),'B',document.getElementById('ANSQ21').textContent)"> def myFunc():</div></label>
+            <label for="Q21C"><div id="OPTQ21C" class="opt"><input type="radio" name="Q21" id="Q21C" value="C" onchange="fun(document.getElementById('OPTQ21C'),'C',document.getElementById('ANSQ21').textContent)"> func myFunc():</div></label>
+            <label for="Q21D"><div id="OPTQ21D" class="opt"><input type="radio" name="Q21" id="Q21D" value="D" onchange="fun(document.getElementById('OPTQ21D'),'D',document.getElementById('ANSQ21').textContent)"> define myFunc():</div></label>
+        </div>
+        <span class="hidden" id="ANSQ21">B</span>
+    </div>
+
+    <!-- Question 22 -->
+    <div class="container main_box">
+        <div class="container question">
+            22) What keyword is used to return a value from a function?
+        </div>
+        <div class="container options">
+            <label for="Q22A"><div id="OPTQ22A" class="opt"><input type="radio" name="Q22" id="Q22A" value="A" onchange="fun(document.getElementById('OPTQ22A'),'A',document.getElementById('ANSQ22').textContent)"> yield</div></label>
+            <label for="Q22B"><div id="OPTQ22B" class="opt"><input type="radio" name="Q22" id="Q22B" value="B" onchange="fun(document.getElementById('OPTQ22B'),'B',document.getElementById('ANSQ22').textContent)"> break</div></label>
+            <label for="Q22C"><div id="OPTQ22C" class="opt"><input type="radio" name="Q22" id="Q22C" value="C" onchange="fun(document.getElementById('OPTQ22C'),'C',document.getElementById('ANSQ22').textContent)"> return</div></label>
+            <label for="Q22D"><div id="OPTQ22D" class="opt"><input type="radio" name="Q22" id="Q22D" value="D" onchange="fun(document.getElementById('OPTQ22D'),'D',document.getElementById('ANSQ22').textContent)"> output</div></label>
+        </div>
+        <span class="hidden" id="ANSQ22">C</span>
+    </div>
+
+    <!-- Question 23 -->
+    <div class="container main_box">
+        <div class="container question">
+            23) Lambda functions are also known as
+        </div>
+        <div class="container options">
+            <label for="Q23A"><div id="OPTQ23A" class="opt"><input type="radio" name="Q23" id="Q23A" value="A" onchange="fun(document.getElementById('OPTQ23A'),'A',document.getElementById('ANSQ23').textContent)"> Named functions</div></label>
+            <label for="Q23B"><div id="OPTQ23B" class="opt"><input type="radio" name="Q23" id="Q23B" value="B" onchange="fun(document.getElementById('OPTQ23B'),'B',document.getElementById('ANSQ23').textContent)"> Anonymous functions</div></label>
+            <label for="Q23C"><div id="OPTQ23C" class="opt"><input type="radio" name="Q23" id="Q23C" value="C" onchange="fun(document.getElementById('OPTQ23C'),'C',document.getElementById('ANSQ23').textContent)"> Recursive functions</div></label>
+            <label for="Q23D"><div id="OPTQ23D" class="opt"><input type="radio" name="Q23" id="Q23D" value="D" onchange="fun(document.getElementById('OPTQ23D'),'D',document.getElementById('ANSQ23').textContent)"> Default functions</div></label>
+        </div>
+        <span class="hidden" id="ANSQ23">B</span>
+    </div>
+
+    <!-- Question 24 -->
+    <div class="container main_box">
+        <div class="container question">
+            24) Which function applies a given function to all items in a list?
+        </div>
+        <div class="container options">
+            <label for="Q24A"><div id="OPTQ24A" class="opt"><input type="radio" name="Q24" id="Q24A" value="A" onchange="fun(document.getElementById('OPTQ24A'),'A',document.getElementById('ANSQ24').textContent)"> map()</div></label>
+            <label for="Q24B"><div id="OPTQ24B" class="opt"><input type="radio" name="Q24" id="Q24B" value="B" onchange="fun(document.getElementById('OPTQ24B'),'B',document.getElementById('ANSQ24').textContent)"> filter()</div></label>
+            <label for="Q24C"><div id="OPTQ24C" class="opt"><input type="radio" name="Q24" id="Q24C" value="C" onchange="fun(document.getElementById('OPTQ24C'),'C',document.getElementById('ANSQ24').textContent)"> reduce()</div></label>
+            <label for="Q24D"><div id="OPTQ24D" class="opt"><input type="radio" name="Q24" id="Q24D" value="D" onchange="fun(document.getElementById('OPTQ24D'),'D',document.getElementById('ANSQ24').textContent)"> apply()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ24">A</span>
+    </div>
+
+    <!-- Question 25 -->
+    <div class="container main_box">
+        <div class="container question">
+            25) What does import math do in Python?
+        </div>
+        <div class="container options">
+            <label for="Q25A"><div id="OPTQ25A" class="opt"><input type="radio" name="Q25" id="Q25A" value="A" onchange="fun(document.getElementById('OPTQ25A'),'A',document.getElementById('ANSQ25').textContent)"> Imports math functions as a package</div></label>
+            <label for="Q25B"><div id="OPTQ25B" class="opt"><input type="radio" name="Q25" id="Q25B" value="B" onchange="fun(document.getElementById('OPTQ25B'),'B',document.getElementById('ANSQ25').textContent)"> Creates a new math module</div></label>
+            <label for="Q25C"><div id="OPTQ25C" class="opt"><input type="radio" name="Q25" id="Q25C" value="C" onchange="fun(document.getElementById('OPTQ25C'),'C',document.getElementById('ANSQ25').textContent)"> Deletes existing math functions</div></label>
+            <label for="Q25D"><div id="OPTQ25D" class="opt"><input type="radio" name="Q25" id="Q25D" value="D" onchange="fun(document.getElementById('OPTQ25D'),'D',document.getElementById('ANSQ25').textContent)"> Reloads the math module</div></label>
+        </div>
+        <span class="hidden" id="ANSQ25">A</span>
+    </div>
+
+    <!-- Question 26 -->
+    <div class="container main_box">
+        <div class="container question">
+            26) What type of data structure is a NumPy array?
+        </div>
+        <div class="container options">
+            <label for="Q26A"><div id="OPTQ26A" class="opt"><input type="radio" name="Q26" id="Q26A" value="A" onchange="fun(document.getElementById('OPTQ26A'),'A',document.getElementById('ANSQ26').textContent)"> List</div></label>
+            <label for="Q26B"><div id="OPTQ26B" class="opt"><input type="radio" name="Q26" id="Q26B" value="B" onchange="fun(document.getElementById('OPTQ26B'),'B',document.getElementById('ANSQ26').textContent)"> Array</div></label>
+            <label for="Q26C"><div id="OPTQ26C" class="opt"><input type="radio" name="Q26" id="Q26C" value="C" onchange="fun(document.getElementById('OPTQ26C'),'C',document.getElementById('ANSQ26').textContent)"> Matrix</div></label>
+            <label for="Q26D"><div id="OPTQ26D" class="opt"><input type="radio" name="Q26" id="Q26D" value="D" onchange="fun(document.getElementById('OPTQ26D'),'D',document.getElementById('ANSQ26').textContent)"> DataFrame</div></label>
+        </div>
+        <span class="hidden" id="ANSQ26">B</span>
+    </div>
+
+    <!-- Question 27 -->
+    <div class="container main_box">
+        <div class="container question">
+            27) Which function creates an array filled with zeros?
+        </div>
+        <div class="container options">
+            <label for="Q27A"><div id="OPTQ27A" class="opt"><input type="radio" name="Q27" id="Q27A" value="A" onchange="fun(document.getElementById('OPTQ27A'),'A',document.getElementById('ANSQ27').textContent)"> np.zeros()</div></label>
+            <label for="Q27B"><div id="OPTQ27B" class="opt"><input type="radio" name="Q27" id="Q27B" value="B" onchange="fun(document.getElementById('OPTQ27B'),'B',document.getElementById('ANSQ27').textContent)"> np.empty()</div></label>
+            <label for="Q27C"><div id="OPTQ27C" class="opt"><input type="radio" name="Q27" id="Q27C" value="C" onchange="fun(document.getElementById('OPTQ27C'),'C',document.getElementById('ANSQ27').textContent)"> np.ones()</div></label>
+            <label for="Q27D"><div id="OPTQ27D" class="opt"><input type="radio" name="Q27" id="Q27D" value="D" onchange="fun(document.getElementById('OPTQ27D'),'D',document.getElementById('ANSQ27').textContent)"> np.array()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ27">A</span>
+    </div>
+
+    <!-- Question 28 -->
+    <div class="container main_box">
+        <div class="container question">
+            28) What does the shape attribute of a NumPy array represent?
+        </div>
+        <div class="container options">
+            <label for="Q28A"><div id="OPTQ28A" class="opt"><input type="radio" name="Q28" id="Q28A" value="A" onchange="fun(document.getElementById('OPTQ28A'),'A',document.getElementById('ANSQ28').textContent)"> Number of elements</div></label>
+            <label for="Q28B"><div id="OPTQ28B" class="opt"><input type="radio" name="Q28" id="Q28B" value="B" onchange="fun(document.getElementById('OPTQ28B'),'B',document.getElementById('ANSQ28').textContent)"> Dimensions of the array</div></label>
+            <label for="Q28C"><div id="OPTQ28C" class="opt"><input type="radio" name="Q28" id="Q28C" value="C" onchange="fun(document.getElementById('OPTQ28C'),'C',document.getElementById('ANSQ28').textContent)"> Data type</div></label>
+            <label for="Q28D"><div id="OPTQ28D" class="opt"><input type="radio" name="Q28" id="Q28D" value="D" onchange="fun(document.getElementById('OPTQ28D'),'D',document.getElementById('ANSQ28').textContent)"> Memory size</div></label>
+        </div>
+        <span class="hidden" id="ANSQ28">B</span>
+    </div>
+
+    <!-- Question 29 -->
+    <div class="container main_box">
+        <div class="container question">
+            29) Which of the following performs element-wise addition in NumPy?
+        </div>
+        <div class="container options">
+            <label for="Q29A"><div id="OPTQ29A" class="opt"><input type="radio" name="Q29" id="Q29A" value="A" onchange="fun(document.getElementById('OPTQ29A'),'A',document.getElementById('ANSQ29').textContent)"> np.add()</div></label>
+            <label for="Q29B"><div id="OPTQ29B" class="opt"><input type="radio" name="Q29" id="Q29B" value="B" onchange="fun(document.getElementById('OPTQ29B'),'B',document.getElementById('ANSQ29').textContent)"> np.sum()</div></label>
+            <label for="Q29C"><div id="OPTQ29C" class="opt"><input type="radio" name="Q29" id="Q29C" value="C" onchange="fun(document.getElementById('OPTQ29C'),'C',document.getElementById('ANSQ29').textContent)"> np.concatenate()</div></label>
+            <label for="Q29D"><div id="OPTQ29D" class="opt"><input type="radio" name="Q29" id="Q29D" value="D" onchange="fun(document.getElementById('OPTQ29D'),'D',document.getElementById('ANSQ29').textContent)"> np.dot()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ29">A</span>
+    </div>
+
+    <!-- Question 30 -->
+    <div class="container main_box">
+        <div class="container question">
+            30) How do you generate random numbers in NumPy?
+        </div>
+        <div class="container options">
+            <label for="Q30A"><div id="OPTQ30A" class="opt"><input type="radio" name="Q30" id="Q30A" value="A" onchange="fun(document.getElementById('OPTQ30A'),'A',document.getElementById('ANSQ30').textContent)"> np.random.rand()</div></label>
+            <label for="Q30B"><div id="OPTQ30B" class="opt"><input type="radio" name="Q30" id="Q30B" value="B" onchange="fun(document.getElementById('OPTQ30B'),'B',document.getElementById('ANSQ30').textContent)"> np.random()</div></label>
+            <label for="Q30C"><div id="OPTQ30C" class="opt"><input type="radio" name="Q30" id="Q30C" value="C" onchange="fun(document.getElementById('OPTQ30C'),'C',document.getElementById('ANSQ30').textContent)"> random.rand()</div></label>
+            <label for="Q30D"><div id="OPTQ30D" class="opt"><input type="radio" name="Q30" id="Q30D" value="D" onchange="fun(document.getElementById('OPTQ30D'),'D',document.getElementById('ANSQ30').textContent)"> numpy.rand()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ30">A</span>
+    </div>
+
+    <!-- Question 31 -->
+    <div class="container main_box">
+        <div class="container question">
+            31) What is a Pandas DataFrame?
+        </div>
+        <div class="container options">
+            <label for="Q31A"><div id="OPTQ31A" class="opt"><input type="radio" name="Q31" id="Q31A" value="A" onchange="fun(document.getElementById('OPTQ31A'),'A',document.getElementById('ANSQ31').textContent)"> A 1D array</div></label>
+            <label for="Q31B"><div id="OPTQ31B" class="opt"><input type="radio" name="Q31" id="Q31B" value="B" onchange="fun(document.getElementById('OPTQ31B'),'B',document.getElementById('ANSQ31').textContent)"> A 2D labeled data structure</div></label>
+            <label for="Q31C"><div id="OPTQ31C" class="opt"><input type="radio" name="Q31" id="Q31C" value="C" onchange="fun(document.getElementById('OPTQ31C'),'C',document.getElementById('ANSQ31').textContent)"> A type of list</div></label>
+            <label for="Q31D"><div id="OPTQ31D" class="opt"><input type="radio" name="Q31" id="Q31D" value="D" onchange="fun(document.getElementById('OPTQ31D'),'D',document.getElementById('ANSQ31').textContent)"> A simple list</div></label>
+        </div>
+        <span class="hidden" id="ANSQ31">B</span>
+    </div>
+
+    <!-- Question 32 -->
+    <div class="container main_box">
+        <div class="container question">
+            32) How do you read a CSV file into a DataFrame?
+        </div>
+        <div class="container options">
+            <label for="Q32A"><div id="OPTQ32A" class="opt"><input type="radio" name="Q32" id="Q32A" value="A" onchange="fun(document.getElementById('OPTQ32A'),'A',document.getElementById('ANSQ32').textContent)"> pd.read_csv()</div></label>
+            <label for="Q32B"><div id="OPTQ32B" class="opt"><input type="radio" name="Q32" id="Q32B" value="B" onchange="fun(document.getElementById('OPTQ32B'),'B',document.getElementById('ANSQ32').textContent)"> pd.load_csv()</div></label>
+            <label for="Q32C"><div id="OPTQ32C" class="opt"><input type="radio" name="Q32" id="Q32C" value="C" onchange="fun(document.getElementById('OPTQ32C'),'C',document.getElementById('ANSQ32').textContent)"> pd.open_csv()</div></label>
+            <label for="Q32D"><div id="OPTQ32D" class="opt"><input type="radio" name="Q32" id="Q32D" value="D" onchange="fun(document.getElementById('OPTQ32D'),'D',document.getElementById('ANSQ32').textContent)"> pd.csv_read()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ32">A</span>
+    </div>
+
+    <!-- Question 33 -->
+    <div class="container main_box">
+        <div class="container question">
+            33) What method returns the first few rows of a DataFrame?
+        </div>
+        <div class="container options">
+            <label for="Q33A"><div id="OPTQ33A" class="opt"><input type="radio" name="Q33" id="Q33A" value="A" onchange="fun(document.getElementById('OPTQ33A'),'A',document.getElementById('ANSQ33').textContent)"> head()</div></label>
+            <label for="Q33B"><div id="OPTQ33B" class="opt"><input type="radio" name="Q33" id="Q33B" value="B" onchange="fun(document.getElementById('OPTQ33B'),'B',document.getElementById('ANSQ33').textContent)"> tail()</div></label>
+            <label for="Q33C"><div id="OPTQ33C" class="opt"><input type="radio" name="Q33" id="Q33C" value="C" onchange="fun(document.getElementById('OPTQ33C'),'C',document.getElementById('ANSQ33').textContent)"> start()</div></label>
+            <label for="Q33D"><div id="OPTQ33D" class="opt"><input type="radio" name="Q33" id="Q33D" value="D" onchange="fun(document.getElementById('OPTQ33D'),'D',document.getElementById('ANSQ33').textContent)"> top()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ33">A</span>
+    </div>
+
+    <!-- Question 34 -->
+    <div class="container main_box">
+        <div class="container question">
+            34) How do you select a column from a DataFrame?
+        </div>
+        <div class="container options">
+            <label for="Q34A"><div id="OPTQ34A" class="opt"><input type="radio" name="Q34" id="Q34A" value="A" onchange="fun(document.getElementById('OPTQ34A'),'A',document.getElementById('ANSQ34').textContent)"> df.column</div></label>
+            <label for="Q34B"><div id="OPTQ34B" class="opt"><input type="radio" name="Q34" id="Q34B" value="B" onchange="fun(document.getElementById('OPTQ34B'),'B',document.getElementById('ANSQ34').textContent)"> df["column"]</div></label>
+            <label for="Q34C"><div id="OPTQ34C" class="opt"><input type="radio" name="Q34" id="Q34C" value="C" onchange="fun(document.getElementById('OPTQ34C'),'C',document.getElementById('ANSQ34').textContent)"> df.column()</div></label>
+            <label for="Q34D"><div id="OPTQ34D" class="opt"><input type="radio" name="Q34" id="Q34D" value="D" onchange="fun(document.getElementById('OPTQ34D'),'D',document.getElementById('ANSQ34').textContent)"> Both a and b</div></label>
+        </div>
+        <span class="hidden" id="ANSQ34">D</span>
+    </div>
+
+<!-- Question 35 -->
+<div class="container main_box">
+    <div class="container question">
+        35) Which method removes missing values (NaN) from a DataFrame?
+    </div>
+    <div class="container options">
+        <label for="Q35A">
+            <div id="OPTQ35A" class="opt">
+                <input type="radio" name="Q35" id="Q35A" value="A" onchange="fun(document.getElementById('OPTQ35A'),'A',document.getElementById('ANSQ35').textContent)">
+                df.dropna()
+            </div>
+        </label>
+        <label for="Q35B">
+            <div id="OPTQ35B" class="opt">
+                <input type="radio" name="Q35" id="Q35B" value="B" onchange="fun(document.getElementById('OPTQ35B'),'B',document.getElementById('ANSQ35').textContent)">
+                df.fillna()
+            </div>
+        </label>
+        <label for="Q35C">
+            <div id="OPTQ35C" class="opt">
+                <input type="radio" name="Q35" id="Q35C" value="C" onchange="fun(document.getElementById('OPTQ35C'),'C',document.getElementById('ANSQ35').textContent)">
+                df.removeNa()
+            </div>
+        </label>
+        <label for="Q35D">
+            <div id="OPTQ35D" class="opt">
+                <input type="radio" name="Q35" id="Q35D" value="D" onchange="fun(document.getElementById('OPTQ35D'),'D',document.getElementById('ANSQ35').textContent)">
+                df.eraseNa()
+            </div>
+        </label>
+    </div>
+    <span class="hidden" id="ANSQ35">A</span>
+</div>
+
+    <!-- Question 36 -->
+    <div class="container main_box">
+        <div class="container question">
+            36) Which statement is used to skip the current iteration in a loop?
+        </div>
+        <div class="container options">
+            <label for="Q36A"><div id="OPTQ36A" class="opt"><input type="radio" name="Q36" id="Q36A" value="A" onchange="fun(document.getElementById('OPTQ36A'),'A',document.getElementById('ANSQ36').textContent)"> break</div></label>
+            <label for="Q36B"><div id="OPTQ36B" class="opt"><input type="radio" name="Q36" id="Q36B" value="B" onchange="fun(document.getElementById('OPTQ36B'),'B',document.getElementById('ANSQ36').textContent)"> continue</div></label>
+            <label for="Q36C"><div id="OPTQ36C" class="opt"><input type="radio" name="Q36" id="Q36C" value="C" onchange="fun(document.getElementById('OPTQ36C'),'C',document.getElementById('ANSQ36').textContent)"> pass</div></label>
+            <label for="Q36D"><div id="OPTQ36D" class="opt"><input type="radio" name="Q36" id="Q36D" value="D" onchange="fun(document.getElementById('OPTQ36D'),'D',document.getElementById('ANSQ36').textContent)"> skip</div></label>
+        </div>
+        <span class="hidden" id="ANSQ36">B</span>
+    </div>
+
+    <!-- Question 37 -->
+    <div class="container main_box">
+        <div class="container question">
+            37) What is the output of bool("") in Python?
+        </div>
+        <div class="container options">
+            <label for="Q37A"><div id="OPTQ37A" class="opt"><input type="radio" name="Q37" id="Q37A" value="A" onchange="fun(document.getElementById('OPTQ37A'),'A',document.getElementById('ANSQ37').textContent)"> True</div></label>
+            <label for="Q37B"><div id="OPTQ37B" class="opt"><input type="radio" name="Q37" id="Q37B" value="B" onchange="fun(document.getElementById('OPTQ37B'),'B',document.getElementById('ANSQ37').textContent)"> False</div></label>
+            <label for="Q37C"><div id="OPTQ37C" class="opt"><input type="radio" name="Q37" id="Q37C" value="C" onchange="fun(document.getElementById('OPTQ37C'),'C',document.getElementById('ANSQ37').textContent)"> None</div></label>
+            <label for="Q37D"><div id="OPTQ37D" class="opt"><input type="radio" name="Q37" id="Q37D" value="D" onchange="fun(document.getElementById('OPTQ37D'),'D',document.getElementById('ANSQ37').textContent)"> Error</div></label>
+        </div>
+        <span class="hidden" id="ANSQ37">B</span>
+    </div>
+
+    <!-- Question 38 -->
+    <div class="container main_box">
+        <div class="container question">
+            38) What is the default data type of a number with a decimal point?
+        </div>
+        <div class="container options">
+            <label for="Q38A"><div id="OPTQ38A" class="opt"><input type="radio" name="Q38" id="Q38A" value="A" onchange="fun(document.getElementById('OPTQ38A'),'A',document.getElementById('ANSQ38').textContent)"> int</div></label>
+            <label for="Q38B"><div id="OPTQ38B" class="opt"><input type="radio" name="Q38" id="Q38B" value="B" onchange="fun(document.getElementById('OPTQ38B'),'B',document.getElementById('ANSQ38').textContent)"> float</div></label>
+            <label for="Q38C"><div id="OPTQ38C" class="opt"><input type="radio" name="Q38" id="Q38C" value="C" onchange="fun(document.getElementById('OPTQ38C'),'C',document.getElementById('ANSQ38').textContent)"> double</div></label>
+            <label for="Q38D"><div id="OPTQ38D" class="opt"><input type="radio" name="Q38" id="Q38D" value="D" onchange="fun(document.getElementById('OPTQ38D'),'D',document.getElementById('ANSQ38').textContent)"> decimal</div></label>
+        </div>
+        <span class="hidden" id="ANSQ38">B</span>
+    </div>
+
+    <!-- Question 39 -->
+    <div class="container main_box">
+        <div class="container question">
+            39) What does the dir() function do?
+        </div>
+        <div class="container options">
+            <label for="Q39A"><div id="OPTQ39A" class="opt"><input type="radio" name="Q39" id="Q39A" value="A" onchange="fun(document.getElementById('OPTQ39A'),'A',document.getElementById('ANSQ39').textContent)"> Lists attributes of an object</div></label>
+            <label for="Q39B"><div id="OPTQ39B" class="opt"><input type="radio" name="Q39" id="Q39B" value="B" onchange="fun(document.getElementById('OPTQ39B'),'B',document.getElementById('ANSQ39').textContent)"> Deletes files</div></label>
+            <label for="Q39C"><div id="OPTQ39C" class="opt"><input type="radio" name="Q39" id="Q39C" value="C" onchange="fun(document.getElementById('OPTQ39C'),'C',document.getElementById('ANSQ39').textContent)"> Changes directories</div></label>
+            <label for="Q39D"><div id="OPTQ39D" class="opt"><input type="radio" name="Q39" id="Q39D" value="D" onchange="fun(document.getElementById('OPTQ39D'),'D',document.getElementById('ANSQ39').textContent)"> Lists files in a folder</div></label>
+        </div>
+        <span class="hidden" id="ANSQ39">A</span>
+    </div>
+
+    <!-- Question 40 -->
+    <div class="container main_box">
+        <div class="container question">
+            40) What is recursion in programming?
+        </div>
+        <div class="container options">
+            <label for="Q40A"><div id="OPTQ40A" class="opt"><input type="radio" name="Q40" id="Q40A" value="A" onchange="fun(document.getElementById('OPTQ40A'),'A',document.getElementById('ANSQ40').textContent)"> A function calling another function</div></label>
+            <label for="Q40B"><div id="OPTQ40B" class="opt"><input type="radio" name="Q40" id="Q40B" value="B" onchange="fun(document.getElementById('OPTQ40B'),'B',document.getElementById('ANSQ40').textContent)"> A function calling itself</div></label>
+            <label for="Q40C"><div id="OPTQ40C" class="opt"><input type="radio" name="Q40" id="Q40C" value="C" onchange="fun(document.getElementById('OPTQ40C'),'C',document.getElementById('ANSQ40').textContent)"> A function defined inside another function</div></label>
+            <label for="Q40D"><div id="OPTQ40D" class="opt"><input type="radio" name="Q40" id="Q40D" value="D" onchange="fun(document.getElementById('OPTQ40D'),'D',document.getElementById('ANSQ40').textContent)"> A function with no return</div></label>
+        </div>
+        <span class="hidden" id="ANSQ40">B</span>
+    </div>
+
+    <!-- Question 41 -->
+    <div class="container main_box">
+        <div class="container question">
+            41) Which method adds an item to a set?
+        </div>
+        <div class="container options">
+            <label for="Q41A"><div id="OPTQ41A" class="opt"><input type="radio" name="Q41" id="Q41A" value="A" onchange="fun(document.getElementById('OPTQ41A'),'A',document.getElementById('ANSQ41').textContent)"> set.add()</div></label>
+            <label for="Q41B"><div id="OPTQ41B" class="opt"><input type="radio" name="Q41" id="Q41B" value="B" onchange="fun(document.getElementById('OPTQ41B'),'B',document.getElementById('ANSQ41').textContent)"> set.insert()</div></label>
+            <label for="Q41C"><div id="OPTQ41C" class="opt"><input type="radio" name="Q41" id="Q41C" value="C" onchange="fun(document.getElementById('OPTQ41C'),'C',document.getElementById('ANSQ41').textContent)"> set.append()</div></label>
+            <label for="Q41D"><div id="OPTQ41D" class="opt"><input type="radio" name="Q41" id="Q41D" value="D" onchange="fun(document.getElementById('OPTQ41D'),'D',document.getElementById('ANSQ41').textContent)"> set.push()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ41">A</span>
+    </div>
+
+    <!-- Question 42 -->
+    <div class="container main_box">
+        <div class="container question">
+            42) Which function converts a list to a tuple?
+        </div>
+        <div class="container options">
+            <label for="Q42A"><div id="OPTQ42A" class="opt"><input type="radio" name="Q42" id="Q42A" value="A" onchange="fun(document.getElementById('OPTQ42A'),'A',document.getElementById('ANSQ42').textContent)"> list()</div></label>
+            <label for="Q42B"><div id="OPTQ42B" class="opt"><input type="radio" name="Q42" id="Q42B" value="B" onchange="fun(document.getElementById('OPTQ42B'),'B',document.getElementById('ANSQ42').textContent)"> tuple()</div></label>
+            <label for="Q42C"><div id="OPTQ42C" class="opt"><input type="radio" name="Q42" id="Q42C" value="C" onchange="fun(document.getElementById('OPTQ42C'),'C',document.getElementById('ANSQ42').textContent)"> set()</div></label>
+            <label for="Q42D"><div id="OPTQ42D" class="opt"><input type="radio" name="Q42" id="Q42D" value="D" onchange="fun(document.getElementById('OPTQ42D'),'D',document.getElementById('ANSQ42').textContent)"> dict()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ42">B</span>
+    </div>
+
+    <!-- Question 43 -->
+    <div class="container main_box">
+        <div class="container question">
+            43) Which of these is mutable?
+        </div>
+        <div class="container options">
+            <label for="Q43A"><div id="OPTQ43A" class="opt"><input type="radio" name="Q43" id="Q43A" value="A" onchange="fun(document.getElementById('OPTQ43A'),'A',document.getElementById('ANSQ43').textContent)"> Tuple</div></label>
+            <label for="Q43B"><div id="OPTQ43B" class="opt"><input type="radio" name="Q43" id="Q43B" value="B" onchange="fun(document.getElementById('OPTQ43B'),'B',document.getElementById('ANSQ43').textContent)"> List</div></label>
+            <label for="Q43C"><div id="OPTQ43C" class="opt"><input type="radio" name="Q43" id="Q43C" value="C" onchange="fun(document.getElementById('OPTQ43C'),'C',document.getElementById('ANSQ43').textContent)"> String</div></label>
+            <label for="Q43D"><div id="OPTQ43D" class="opt"><input type="radio" name="Q43" id="Q43D" value="D" onchange="fun(document.getElementById('OPTQ43D'),'D',document.getElementById('ANSQ43').textContent)"> Integer</div></label>
+        </div>
+        <span class="hidden" id="ANSQ43">B</span>
+    </div>
+
+    <!-- Question 44 -->
+    <div class="container main_box">
+        <div class="container question">
+            44) How do you merge two dictionaries in Python 3.9+?
+        </div>
+        <div class="container options">
+            <label for="Q44A"><div id="OPTQ44A" class="opt"><input type="radio" name="Q44" id="Q44A" value="A" onchange="fun(document.getElementById('OPTQ44A'),'A',document.getElementById('ANSQ44').textContent)"> dict1 + dict2</div></label>
+            <label for="Q44B"><div id="OPTQ44B" class="opt"><input type="radio" name="Q44" id="Q44B" value="B" onchange="fun(document.getElementById('OPTQ44B'),'B',document.getElementById('ANSQ44').textContent)"> dict1 | dict2</div></label>
+            <label for="Q44C"><div id="OPTQ44C" class="opt"><input type="radio" name="Q44" id="Q44C" value="C" onchange="fun(document.getElementById('OPTQ44C'),'C',document.getElementById('ANSQ44').textContent)"> dict1.merge(dict2)</div></label>
+            <label for="Q44D"><div id="OPTQ44D" class="opt"><input type="radio" name="Q44" id="Q44D" value="D" onchange="fun(document.getElementById('OPTQ44D'),'D',document.getElementById('ANSQ44').textContent)"> dict1.update(dict2)</div></label>
+        </div>
+        <span class="hidden" id="ANSQ44">B</span>
+    </div>
+
+    <!-- Question 45 -->
+    <div class="container main_box">
+        <div class="container question">
+            45) What is the output of this code: print((1, 2, 3) * 3)?
+        </div>
+        <div class="container options">
+            <label for="Q45A"><div id="OPTQ45A" class="opt"><input type="radio" name="Q45" id="Q45A" value="A" onchange="fun(document.getElementById('OPTQ45A'),'A',document.getElementById('ANSQ45').textContent)"> (1, 2, 3, 1, 2, 3, 1, 2, 3)</div></label>
+            <label for="Q45B"><div id="OPTQ45B" class="opt"><input type="radio" name="Q45" id="Q45B" value="B" onchange="fun(document.getElementById('OPTQ45B'),'B',document.getElementById('ANSQ45').textContent)"> (3, 6, 9)</div></label>
+            <label for="Q45C"><div id="OPTQ45C" class="opt"><input type="radio" name="Q45" id="Q45C" value="C" onchange="fun(document.getElementById('OPTQ45C'),'C',document.getElementById('ANSQ45').textContent)"> (1, 2, 3)</div></label>
+            <label for="Q45D"><div id="OPTQ45D" class="opt"><input type="radio" name="Q45" id="Q45D" value="D" onchange="fun(document.getElementById('OPTQ45D'),'D',document.getElementById('ANSQ45').textContent)"> Error</div></label>
+        </div>
+        <span class="hidden" id="ANSQ45">A</span>
+    </div>
+
+    <!-- Question 46 -->
+    <div class="container main_box">
+        <div class="container question">
+            46) What keyword is used to define a generator function?
+        </div>
+        <div class="container options">
+            <label for="Q46A"><div id="OPTQ46A" class="opt"><input type="radio" name="Q46" id="Q46A" value="A" onchange="fun(document.getElementById('OPTQ46A'),'A',document.getElementById('ANSQ46').textContent)"> yield</div></label>
+            <label for="Q46B"><div id="OPTQ46B" class="opt"><input type="radio" name="Q46" id="Q46B" value="B" onchange="fun(document.getElementById('OPTQ46B'),'B',document.getElementById('ANSQ46').textContent)"> return</div></label>
+            <label for="Q46C"><div id="OPTQ46C" class="opt"><input type="radio" name="Q46" id="Q46C" value="C" onchange="fun(document.getElementById('OPTQ46C'),'C',document.getElementById('ANSQ46').textContent)"> generate</div></label>
+            <label for="Q46D"><div id="OPTQ46D" class="opt"><input type="radio" name="Q46" id="Q46D" value="D" onchange="fun(document.getElementById('OPTQ46D'),'D',document.getElementById('ANSQ46').textContent)"> break</div></label>
+        </div>
+        <span class="hidden" id="ANSQ46">A</span>
+    </div>
+
+    <!-- Question 47 -->
+    <div class="container main_box">
+        <div class="container question">
+            47) What is a decorator in Python?
+        </div>
+        <div class="container options">
+            <label for="Q47A"><div id="OPTQ47A" class="opt"><input type="radio" name="Q47" id="Q47A" value="A" onchange="fun(document.getElementById('OPTQ47A'),'A',document.getElementById('ANSQ47').textContent)"> A function that modifies another function</div></label>
+            <label for="Q47B"><div id="OPTQ47B" class="opt"><input type="radio" name="Q47" id="Q47B" value="B" onchange="fun(document.getElementById('OPTQ47B'),'B',document.getElementById('ANSQ47').textContent)"> A type of variable</div></label>
+            <label for="Q47C"><div id="OPTQ47C" class="opt"><input type="radio" name="Q47" id="Q47C" value="C" onchange="fun(document.getElementById('OPTQ47C'),'C',document.getElementById('ANSQ47').textContent)"> A type of function argument</div></label>
+            <label for="Q47D"><div id="OPTQ47D" class="opt"><input type="radio" name="Q47" id="Q47D" value="D" onchange="fun(document.getElementById('OPTQ47D'),'D',document.getElementById('ANSQ47').textContent)"> A module in Python</div></label>
+        </div>
+        <span class="hidden" id="ANSQ47">A</span>
+    </div>
+
+    <!-- Question 48 -->
+    <div class="container main_box">
+        <div class="container question">
+            48) What will the filter() function do?
+        </div>
+        <div class="container options">
+            <label for="Q48A"><div id="OPTQ48A" class="opt"><input type="radio" name="Q48" id="Q48A" value="A" onchange="fun(document.getElementById('OPTQ48A'),'A',document.getElementById('ANSQ48').textContent)"> Apply a function and return elements that satisfy a condition</div></label>
+            <label for="Q48B"><div id="OPTQ48B" class="opt"><input type="radio" name="Q48" id="Q48B" value="B" onchange="fun(document.getElementById('OPTQ48B'),'B',document.getElementById('ANSQ48').textContent)"> Map functions to a list</div></label>
+            <label for="Q48C"><div id="OPTQ48C" class="opt"><input type="radio" name="Q48" id="Q48C" value="C" onchange="fun(document.getElementById('OPTQ48C'),'C',document.getElementById('ANSQ48').textContent)"> Reduce a list to a single value</div></label>
+            <label for="Q48D"><div id="OPTQ48D" class="opt"><input type="radio" name="Q48" id="Q48D" value="D" onchange="fun(document.getElementById('OPTQ48D'),'D',document.getElementById('ANSQ48').textContent)"> None of these</div></label>
+        </div>
+        <span class="hidden" id="ANSQ48">A</span>
+    </div>
+
+    <!-- Question 49 -->
+    <div class="container main_box">
+        <div class="container question">
+            49) What are lambda functions used for?
+        </div>
+        <div class="container options">
+            <label for="Q49A"><div id="OPTQ49A" class="opt"><input type="radio" name="Q49" id="Q49A" value="A" onchange="fun(document.getElementById('OPTQ49A'),'A',document.getElementById('ANSQ49').textContent)"> Large functions</div></label>
+            <label for="Q49B"><div id="OPTQ49B" class="opt"><input type="radio" name="Q49" id="Q49B" value="B" onchange="fun(document.getElementById('OPTQ49B'),'B',document.getElementById('ANSQ49').textContent)"> Anonymous functions</div></label>
+            <label for="Q49C"><div id="OPTQ49C" class="opt"><input type="radio" name="Q49" id="Q49C" value="C" onchange="fun(document.getElementById('OPTQ49C'),'C',document.getElementById('ANSQ49').textContent)"> Recursive functions</div></label>
+            <label for="Q49D"><div id="OPTQ49D" class="opt"><input type="radio" name="Q49" id="Q49D" value="D" onchange="fun(document.getElementById('OPTQ49D'),'D',document.getElementById('ANSQ49').textContent)"> Named functions</div></label>
+        </div>
+        <span class="hidden" id="ANSQ49">B</span>
+    </div>
+
+    <!-- Question 50 -->
+    <div class="container main_box">
+        <div class="container question">
+            50) Which function repeats a module load?
+        </div>
+        <div class="container options">
+            <label for="Q50A"><div id="OPTQ50A" class="opt"><input type="radio" name="Q50" id="Q50A" value="A" onchange="fun(document.getElementById('OPTQ50A'),'A',document.getElementById('ANSQ50').textContent)"> reload()</div></label>
+            <label for="Q50B"><div id="OPTQ50B" class="opt"><input type="radio" name="Q50" id="Q50B" value="B" onchange="fun(document.getElementById('OPTQ50B'),'B',document.getElementById('ANSQ50').textContent)"> import()</div></label>
+            <label for="Q50C"><div id="OPTQ50C" class="opt"><input type="radio" name="Q50" id="Q50C" value="C" onchange="fun(document.getElementById('OPTQ50C'),'C',document.getElementById('ANSQ50').textContent)"> renew()</div></label>
+            <label for="Q50D"><div id="OPTQ50D" class="opt"><input type="radio" name="Q50" id="Q50D" value="D" onchange="fun(document.getElementById('OPTQ50D'),'D',document.getElementById('ANSQ50').textContent)"> repeat()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ50">A</span>
+    </div>
+
+    <!-- Question 51 -->
+    <div class="container main_box">
+        <div class="container question">
+            51) How do you reshape a NumPy array?
+        </div>
+        <div class="container options">
+            <label for="Q51A"><div id="OPTQ51A" class="opt"><input type="radio" name="Q51" id="Q51A" value="A" onchange="fun(document.getElementById('OPTQ51A'),'A',document.getElementById('ANSQ51').textContent)"> array.reshape()</div></label>
+            <label for="Q51B"><div id="OPTQ51B" class="opt"><input type="radio" name="Q51" id="Q51B" value="B" onchange="fun(document.getElementById('OPTQ51B'),'B',document.getElementById('ANSQ51').textContent)"> array.resize()</div></label>
+            <label for="Q51C"><div id="OPTQ51C" class="opt"><input type="radio" name="Q51" id="Q51C" value="C" onchange="fun(document.getElementById('OPTQ51C'),'C',document.getElementById('ANSQ51').textContent)"> array.shape()</div></label>
+            <label for="Q51D"><div id="OPTQ51D" class="opt"><input type="radio" name="Q51" id="Q51D" value="D" onchange="fun(document.getElementById('OPTQ51D'),'D',document.getElementById('ANSQ51').textContent)"> reshape.array()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ51">A</span>
+    </div>
+
+    <!-- Question 52 -->
+    <div class="container main_box">
+        <div class="container question">
+            52) Which Pandas function is used to group data?
+        </div>
+        <div class="container options">
+            <label for="Q52A"><div id="OPTQ52A" class="opt"><input type="radio" name="Q52" id="Q52A" value="A" onchange="fun(document.getElementById('OPTQ52A'),'A',document.getElementById('ANSQ52').textContent)"> groupby()</div></label>
+            <label for="Q52B"><div id="OPTQ52B" class="opt"><input type="radio" name="Q52" id="Q52B" value="B" onchange="fun(document.getElementById('OPTQ52B'),'B',document.getElementById('ANSQ52').textContent)"> aggregate()</div></label>
+            <label for="Q52C"><div id="OPTQ52C" class="opt"><input type="radio" name="Q52" id="Q52C" value="C" onchange="fun(document.getElementById('OPTQ52C'),'C',document.getElementById('ANSQ52').textContent)"> collect()</div></label>
+            <label for="Q52D"><div id="OPTQ52D" class="opt"><input type="radio" name="Q52" id="Q52D" value="D" onchange="fun(document.getElementById('OPTQ52D'),'D',document.getElementById('ANSQ52').textContent)"> merge()</div></label>
+        </div>
+        <span class="hidden" id="ANSQ52">A</span>
+    </div>
+
+    <!-- Question 53 -->
+    <div class="container main_box">
+        <div class="container question">
+            53) What does drop_duplicates() do in Pandas?
+        </div>
+        <div class="container options">
+            <label for="Q53A"><div id="OPTQ53A" class="opt"><input type="radio" name="Q53" id="Q53A" value="A" onchange="fun(document.getElementById('OPTQ53A'),'A',document.getElementById('ANSQ53').textContent)"> Remove duplicate rows</div></label>
+            <label for="Q53B"><div id="OPTQ53B" class="opt"><input type="radio" name="Q53" id="Q53B" value="B" onchange="fun(document.getElementById('OPTQ53B'),'B',document.getElementById('ANSQ53').textContent)"> Remove missing values</div></label>
+            <label for="Q53C"><div id="OPTQ53C" class="opt"><input type="radio" name="Q53" id="Q53C" value="C" onchange="fun(document.getElementById('OPTQ53C'),'C',document.getElementById('ANSQ53').textContent)"> Remove columns</div></label>
+            <label for="Q53D"><div id="OPTQ53D" class="opt"><input type="radio" name="Q53" id="Q53D" value="D" onchange="fun(document.getElementById('OPTQ53D'),'D',document.getElementById('ANSQ53').textContent)"> Remove single rows</div></label>
+        </div>
+        <span class="hidden" id="ANSQ53">A</span>
+    </div>
+
+    <!-- Question 54 -->
+    <div class="container main_box">
+        <div class="container question">
+            54) How do you merge two DataFrames on a common column?
+        </div>
+        <div class="container options">
+            <label for="Q54A"><div id="OPTQ54A" class="opt"><input type="radio" name="Q54" id="Q54A" value="A" onchange="fun(document.getElementById('OPTQ54A'),'A',document.getElementById('ANSQ54').textContent)"> merge()</div></label>
+            <label for="Q54B"><div id="OPTQ54B" class="opt"><input type="radio" name="Q54" id="Q54B" value="B" onchange="fun(document.getElementById('OPTQ54B'),'B',document.getElementById('ANSQ54').textContent)"> join()</div></label>
+            <label for="Q54C"><div id="OPTQ54C" class="opt"><input type="radio" name="Q54" id="Q54C" value="C" onchange="fun(document.getElementById('OPTQ54C'),'C',document.getElementById('ANSQ54').textContent)"> concat()</div></label>
+            <label for="Q54D"><div id="OPTQ54D" class="opt"><input type="radio" name="Q54" id="Q54D" value="D" onchange="fun(document.getElementById('OPTQ54D'),'D',document.getElementById('ANSQ54').textContent)"> Both a and b</div></label>
+        </div>
+        <span class="hidden" id="ANSQ54">D</span>
+    </div>
+
+
+            <script>
+        function _0x370b(){const _0x237726=['38870fdNajI','length','remove','black','45022vXBsfU','40Wfslnh','getElementsByName','add','824SbhQDr','6264LoJULQ','parentNode','6hHiCrG','classList','style','4089371CDdcZS','color','1605765kphUYX','value','input','red','16911JLTtiA','white','4053KRKoDW','34248636nEbvpQ','backgroundColor','incorrect','correct','name','246htnyyn'];_0x370b=function(){return _0x237726;};return _0x370b();}function _0x1963(_0x41d8ac,_0x169d9e){const _0x370bd5=_0x370b();return _0x1963=function(_0x196359,_0x1cd947){_0x196359=_0x196359-0x152;let _0x392847=_0x370bd5[_0x196359];return _0x392847;},_0x1963(_0x41d8ac,_0x169d9e);}(function(_0x27b6ad,_0x43408b){const _0x2a2aa2=_0x1963,_0x44b91b=_0x27b6ad();while(!![]){try{const _0x280ffd=parseInt(_0x2a2aa2(0x16c))/0x1*(parseInt(_0x2a2aa2(0x156))/0x2)+-parseInt(_0x2a2aa2(0x15b))/0x3+-parseInt(_0x2a2aa2(0x153))/0x4*(parseInt(_0x2a2aa2(0x168))/0x5)+parseInt(_0x2a2aa2(0x167))/0x6*(-parseInt(_0x2a2aa2(0x161))/0x7)+-parseInt(_0x2a2aa2(0x154))/0x8*(parseInt(_0x2a2aa2(0x15f))/0x9)+parseInt(_0x2a2aa2(0x16d))/0xa*(parseInt(_0x2a2aa2(0x159))/0xb)+parseInt(_0x2a2aa2(0x162))/0xc;if(_0x280ffd===_0x43408b)break;else _0x44b91b['push'](_0x44b91b['shift']());}catch(_0x2769be){_0x44b91b['push'](_0x44b91b['shift']());}}}(_0x370b,0xce2b4));function fun(_0x20a74c,_0x535606,_0x4bb621){const _0x77e863=_0x1963;let _0x1c837b=_0x20a74c['getElementsByTagName'](_0x77e863(0x15d))[0x0][_0x77e863(0x166)],_0x568840=document[_0x77e863(0x16e)](_0x1c837b);for(let _0x35eedb=0x0;_0x35eedb<_0x568840[_0x77e863(0x169)];_0x35eedb++){let _0x2cb55d=_0x568840[_0x35eedb][_0x77e863(0x155)][_0x77e863(0x155)];_0x2cb55d[_0x77e863(0x158)]['backgroundColor']='',_0x2cb55d[_0x77e863(0x158)][_0x77e863(0x15a)]=_0x77e863(0x16b),_0x2cb55d[_0x77e863(0x157)][_0x77e863(0x16a)]('correct',_0x77e863(0x164));}if(_0x535606===_0x4bb621)_0x20a74c[_0x77e863(0x158)][_0x77e863(0x163)]='green',_0x20a74c[_0x77e863(0x158)][_0x77e863(0x15a)]=_0x77e863(0x160),_0x20a74c['classList']['add'](_0x77e863(0x165));else{_0x20a74c[_0x77e863(0x158)]['backgroundColor']=_0x77e863(0x15e),_0x20a74c[_0x77e863(0x158)][_0x77e863(0x15a)]=_0x77e863(0x160),_0x20a74c[_0x77e863(0x157)][_0x77e863(0x152)]('incorrect');for(let _0x2230b2=0x0;_0x2230b2<_0x568840[_0x77e863(0x169)];_0x2230b2++){if(_0x568840[_0x2230b2][_0x77e863(0x15c)]===_0x4bb621){let _0x4e12a7=_0x568840[_0x2230b2][_0x77e863(0x155)][_0x77e863(0x155)];_0x4e12a7!==_0x20a74c&&(_0x4e12a7[_0x77e863(0x158)][_0x77e863(0x163)]='darkgreen',_0x4e12a7[_0x77e863(0x158)]['color']=_0x77e863(0x160),_0x4e12a7[_0x77e863(0x157)][_0x77e863(0x152)](_0x77e863(0x165)));break;}}}}
+    </script>    
+</body>
+</html>
